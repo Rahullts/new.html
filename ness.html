@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Music -Inspired</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <div class="theme-toggle" id="themeToggle" title="Toggle light/dark mode">
+    <i class="fas fa-moon"></i>
+  </div>
+  <div class="container">
+    <nav class="sidebar">
+      <div class="logo">
+        <i class="fab fa-spotify"></i>
+        <span>RABOO</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#"><i class="fas fa-search"></i> Search</a></li>
+        <li><a href="#"><i class="fas fa-book"></i> Library</a></li>
+      </ul>
+      <div class="playlists">
+        <h3>Playlists</h3>
+        <ul>
+          <li><a href="#"><i class="fas fa-music"></i> Top Hits</a></li>
+          <li><a href="#"><i class="fas fa-dumbbell"></i> Workout</a></li>
+          <li><a href="#"><i class="fas fa-coffee"></i> Chill</a></li>
+        </ul>
+      </div>
+      <div class="sidebar-footer">
+        <a href="#"><i class="fas fa-cog"></i> Settings</a>
+        <a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+      </div>
+    </nav>
+    <main class="main-content">
+      <header>
+        <h1>Welcome back, User!</h1>
+        <div class="search-bar">
+          <input type="text" id="searchInput" placeholder="Search for Artists, Songs...">
+          <i class="fas fa-search"></i>
+        </div>
+      </header>
+      <section class="featured-artist">
+        <div class="artist-image">
+          <img src="download.jpg" alt="Featured Artist">
+        </div>
+        <div class="artist-info">
+          <h2>Featured Artist: DJ Nova</h2>
+          <p>
+            DJ Nova blends electronic beats with soulful melodies to create an unforgettable soundscape.
+            Check out her latest album "Galactic Dreams"!
+          </p>
+          <button class="follow-btn"><i class="fas fa-user-plus"></i> Follow</button>
+        </div>
+      </section>
+      <section class="albums">
+        <h2>Trending Albums</h2>
+        <div class="album-list">
+          <div class="album-card">
+            <div class="album-cover">
+              <img src="download.webp" alt="Album 1">
+              <div class="play-btn"><i class="fas fa-play-circle"></i></div>
+            </div>
+            <div class="album-info">
+              <p>A Real Hero</p>
+              <span>DJ Nova</span>
+            </div>
+          </div>
+          <div class="album-card">
+            <div class="album-cover">
+              <img src="download (1).webp" alt="Album 2">
+              <div class="play-btn"><i class="fas fa-play-circle"></i></div>
+            </div>
+            <div class="album-info">
+              <p>Portals</p>
+              <span>Jave Jordern</span>
+            </div>
+          </div>
+          <div class="album-card">
+            <div class="album-cover">
+              <img src="OIP (1).webp" alt="Album 3">
+              <div class="play-btn"><i class="fas fa-play-circle"></i></div>
+            </div>
+            <div class="album-info">
+              <p>Justice League</p>
+              <span>City Sound</span>
+            </div>
+          </div>
+          <div class="album-card">
+            <div class="album-cover">
+              <img src="OIP (2).webp" alt="Album 4">
+              <div class="play-btn"><i class="fas fa-play-circle"></i></div>
+            </div>
+            <div class="album-info">
+              <p>Dune Part-2</p>
+              <span>Orbit</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="songs">
+        <h2>Top Songs</h2>
+        <ul>
+          <li>
+            <span>01. Starlight</span>
+            <span>DJ Nova</span>
+            <button><i class="fas fa-play"></i> Play</button>
+          </li>
+          <li>
+            <span>02. Skyline</span>
+            <span>Wave Rider</span>
+            <button><i class="fas fa-play"></i> Play</button>
+          </li>
+          <li>
+            <span>03. Moonwalk</span>
+            <span>Orbit</span>
+            <button><i class="fas fa-play"></i> Play</button>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+  <footer class="music-player glass">
+    <div class="player-info">
+      <img src="OIP (4).webp" alt="Playing">
+      <div>
+        <p class="song-title">Starlight</p>
+        <p class="artist">DJ Nova</p>
+      </div>
+    </div>
+    <div class="player-controls">
+      <button><i class="fas fa-backward"></i></button>
+      <button class="play-pause"><i class="fas fa-play"></i></button>
+      <button><i class="fas fa-forward"></i></button>
+    </div>
+    <div class="player-extra">
+      <span>02:15 / 03:45</span>
+      <input type="range" min="0" max="100" value="50">
+      <button class="volume-btn"><i class="fas fa-volume-up"></i></button>
+    </div>
+  </footer>
+</body>
+</html>
